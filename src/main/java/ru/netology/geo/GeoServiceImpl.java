@@ -32,5 +32,6 @@ public class GeoServiceImpl implements GeoService {
      */
     public Location byCoordinates(double latitude, double longitude) {
         throw new RuntimeException("Not implemented");
+        }
     }
-}
+
