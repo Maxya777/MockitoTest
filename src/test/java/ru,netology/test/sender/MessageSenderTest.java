@@ -1,3 +1,5 @@
+package sender;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
@@ -43,7 +45,7 @@ public class MessageSenderTest {
     }
 
     @Test
-    void MessageSenderSendTest() {
+    void sendUnitTest() {
         GeoService geoService = new GeoServiceImpl();
         LocalizationService localizationService = new LocalizationServiceImpl();
         MessageSender messageSender = new MessageSenderImpl(geoService, localizationService);
